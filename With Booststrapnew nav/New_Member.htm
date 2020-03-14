@@ -1,0 +1,358 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Mind IT Systems</title>
+
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="STYLESHEET" href="css/bootstrap.min.css">
+<link rel="STYLESHEET" href="sweetalert.css">
+<script src="jquery-3.2.1.min.js"></script>
+
+<script src="js/bootstrap.js"></script>
+<script src="sweetalert.min.js"></script>
+
+
+
+
+<script>
+
+$(document).ready(function()
+{ 
+
+	
+
+	
+	$("#submit").click(function()
+	{
+	
+	var fname=$("#fname").val();
+	var lname=$("#lname").val();
+	var regx1 = /^[A-Za-z]+$/;
+	var email=$("#email").val();
+	var atpos = email.indexOf("@");
+	var dotpos = email.lastIndexOf(".");
+	
+		if (fname == '') 
+		{ 
+		   
+			swal('FirstName should not be empty');
+			
+			$("#fname").focus();
+			
+			return false;	
+		}
+		else{
+			if(!regx1.test(fname))
+			{
+				swal("First Name must be alphabetic");
+				$("#fname").focus();
+				return false;
+			}
+		}
+		if (lname == '') 
+		{ 
+			swal('LastName should not be empty'); 
+			$("#lname").focus();
+			return false;	
+		}
+		if(email==null || email=="")
+		{  
+			swal("Please fill email address");  
+			$("#email").focus();
+			return false; 
+		}
+		else if(atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) 
+		{
+			swal("Not a valid e-mail address"); 
+			$("#email").focus();
+			return false; 
+  }
+		
+		
+});
+});
+
+</script>
+
+
+<script>
+
+var states = new Array();
+
+states['delhi'] = new Array('Pitampura','Ncr','Rohini');
+states['mp'] = new Array('Satna','Gwalior','Reeva');
+states['up'] = new Array('Jhaansi','Agra','Noida');
+states['andra'] = new Array('vijaywada','vishakhapatnam','hyderabad');
+states['himachal'] = new Array('Manali','Kufri','Shimla');
+
+function setStates() {
+  cntrySel = document.getElementById('state');
+  stateList = states[cntrySel.value];
+  changeSelect('city', stateList, stateList);
+ }
+
+function changeSelect(fieldID, newOptions, newValues) {
+  selectField = document.getElementById(fieldID);
+  selectField.options.length = 0;
+  for (i=0; i<newOptions.length; i++) {
+    selectField.options[selectField.length] = new Option(newOptions[i], newValues[i]);
+  }
+}
+
+</script>
+
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+
+
+
+</head>
+<body>
+
+
+
+<div class="container-fluid">	
+
+<div  class="jumbotron"id="header" w3-include-html="header.html" 
+style="background-image: url(mindit.png);
+background-position: right;
+
+background-repeat: no-repeat;
+color: white;
+text-shadow: black 0.3em 0.3em 0.3em;"></div>
+
+
+
+<form name="myform" id="validateform" action="abc.jsp" >  
+
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+          <li class="active"><a href="mine.html">Home</a></li>
+          <li ><a  href="mine.html">Services</a></li>
+	      <li ><a  href="mine.html">AboutUs</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div>
+
+<article class="well well-sm">
+  <h1>Dashboard</h1>
+   </article>
+</div>
+
+<div class="panel panel-primary">
+
+<div class="panel-body"><h2>Personal Information</h2></div>
+<table class="table table-striped" >
+
+  <tr>
+    <th>First Name</th>
+    <td><input name="fname" id="fname" type="text" /></td>
+    <th>Last Name</th>
+    <td><input name="lname" id="lname" type="text"  /></td>
+  </tr>
+  
+  <tr>
+      <th>Email</th>
+    <td><input name="email" id="email" type="email"  /></td>
+	<th>Password</th>
+    <td><input name="pass" id="pass"type="password"  /></td>
+  </tr>
+  
+
+  <tr>
+    <th>DOB</th>
+    <td><input name="date" id="date" type="date"  required /></td>
+  
+    <th>Gender</th>
+    <td>
+      <label>
+        <input type="radio" name="RadioGroup1" value="Male" />
+        Male</label>
+      
+      <label>
+        <input type="radio" name="RadioGroup1" value="female" id="RadioGroup1_1" />
+        Female</label>
+     
+    </td>
+  
+  </tr>
+  <tr>
+    <th>Contact No.</th>
+    <td><input name="c_no" id="c_no" type="text"   /></td>
+    <th>Street</th>
+    <td><input name="street" id="street"type="text"  /></td>
+  </tr>
+  
+  <tr >
+    <th>State</th>
+    <td class="dropdown"><select class="form-control" name="state" id="state" required="required" onchange="setStates();">
+	<option value="delhi">Delhi</option>
+	<option value="himachal">Himachal Pradesh</option>
+	<option value="andra">Andra Pradesh</option>
+	<option value="mp">Madhya Pradesh</option>
+	<option value="up">Uttar Pradesh</option></select>
+	</td>
+	
+	
+	<th>City</th>
+    <td>
+	<select class="form-control" name="city" id="city" required="required">
+	<option>Please select a State</option>
+	</select>
+	</td>
+   </tr>
+   
+   
+  <tr>
+    <th>Nation</th>
+    <td>
+	<select class="form-control" name="nation" id="nation">
+	<option>Select</option>
+	<option id="london">London</option>
+	<option id="uk">UK</option>
+	<option id="shri">Shri Lanka</option>
+	<option id="rusy">Russia</option>
+	<option id="south">South Africa</option>
+	<option id="indian">India</option></select></td>
+    <td>Pin Code</td>
+    <td><input name="pincode" type="text"  /></td>
+  </tr>
+  
+</table>
+
+  
+
+</div>
+
+<div class="panel panel-primary">
+
+<div class="panel-body"><h2>Educational Qualification</h2></div>
+<table class="table table-striped">
+  <tr>
+    <td></td>
+    <td>School/College</td>
+    <td>Board/University</td>
+    <td>Percent(%)</td>
+    <td>Passout Year</td>
+  </tr>
+  <tr>
+    <th>Matric</th>
+    <td><input name="10_schnm" type="text" /></td>
+    <td><input name="10_board" type="text" /></td>
+    <td><input name="10_%" type="text"  /></td>
+    <td><input name="10_year" type="text"  /></td>
+  </tr>
+  <tr>
+    <th>High Secondary</th>
+    <td><input name="12_schnm" type="text"  /></td>
+    <td><input name="12_board" type="text"  /></td>
+    <td><input name="12_%" type="text" /></td>
+    <td><input name="12_year" type="text"  /></td>
+  </tr>
+  <tr>
+    
+    <th>Graduation</th>
+    <td><input name="grad_clgnm" type="text" /></td>
+    <td><input name="grad" type="text" /></td>
+    <td><input name="grad_%" type="text"  /></td>
+    <td><input name="grad_year" type="text"  /></td>
+  </tr>
+  <tr>
+    <th>Post Graduation</th>
+    <td><input name="upgrad_clgnm"  type="text"   /></td>
+    <td><input name="upgrad"  type="text" /></td>
+    <td><input name="upgrad_%" type="text" /></td>
+    <td><input name="upgrad_year"  type="text" /></td>
+  </tr>
+</table>
+
+</div>
+
+
+<div class="panel panel-primary">
+
+<div class="panel-body"><h2>Work details</h2></div>
+
+<div class="row">
+<div class="col-md-6">
+<table class="table">
+  <tr>
+    <th>Profile</th>
+    <td><select class="form-control" name="profile" >
+	<option id="select" >Select</option>
+	<option id="qt" >Quality Analyser</option>
+	<option id="wd">Web Development</option>
+	<option id="pm">Project Manager</option>
+	<option id="acc">Account</option>
+	<option id="db">DataBase Administator</option>
+	<option id="prog">Software Programmer</option></select></td>
+  </tr>
+</table>
+</div>
+</div>
+</div>
+
+<div align="right" style="20px 0px 50px 0px;" >
+<input class="btn btn-success" type="submit" value="Submit" id="submit">  
+<input class="btn btn-danger" name="clear" type="reset" value="clear" />
+
+</div>
+</form>
+
+</body>	
+
+
+
+
+
+
+
+<footer class="navbar-default navbar-bottom">
+  <div class="container-fluid">
+    <span><div align="bottom" class="panel-footer"  id="footer" w3-include-html="footer.html"></span>
+  </div>
+</footer>
+
+
+<script>
+w3.includeHTML();
+</script>
+
+
+</div>
+</html>
+
+

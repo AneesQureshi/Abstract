@@ -1,0 +1,1 @@
+call inserte('Akshay',986526531,1,'Mathew');

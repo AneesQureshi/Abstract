@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Mind IT Systems</title>
+
+<title>Mind IT Systems</title>
+<link rel="STYLESHEET" href="css/bootstrap.min.css">
+<link rel="STYLESHEET" href="sweetalert.css">
+<script src="jquery-3.2.1.min.js"></script>
+
+<script src="js/bootstrap.js"></script>
+<script src="sweetalert.min.js"></script>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+
+<script>
+
+function qs(search_for) {
+		var query = window.location.search.substring(1);
+		var parms = query.split('&');
+		for (var i=0; i<parms.length; i++) {
+			var pos = parms[i].indexOf('=');
+			if (pos > 0  && search_for == parms[i].substring(0,pos)) {
+				return parms[i].substring(pos+1);;
+			}
+		}
+		return "";
+	}
+	var EmployeeId=  qs("eId");
+	
+//document.write(EmployeeId);	
+	
+	
+	if(EmployeeId=='1')
+	{
+	var data = ["Peter","Griffin","9922667744","Male","Java developer","peter@gmail.com","NewYork","US"];
+	}
+	if(EmployeeId=='2')
+	{
+	var data = ["Lois","Mane","8715625643","Female","Software Engineer","Lois@gmail.com","Illinois","US"];
+	}
+	if(EmployeeId=='3')
+	{
+	var data = ["Joe","Swanson","6584523145","Male","Project Manager","Joe@gmail.com","Washington DC","US"];
+	}
+	if(EmployeeId=='4')
+	{
+	var data = ["Cleveland","Brown","4525674521","Male","Quality Analyst","Cleveland@gmail.com","California","US"];
+	}
+
+</script>
+
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+<body>
+
+
+<div class="container-fluid">	
+
+<div  class="jumbotron"id="header" w3-include-html="header.html" 
+style="background-image: url(mindit.png);
+background-position: right;
+
+background-repeat: no-repeat;
+color: white;
+text-shadow: black 0.3em 0.3em 0.3em;">);></div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+          <li class="active"><a href="mine.html">Home</a></li>
+          <li ><a  href="mine.html">Services</a></li>
+	      <li ><a  href="mine.html">AboutUs</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<article class="well well-sm">
+  <h1>Dashboard</h1>
+   </article>
+
+
+<div class="panel panel-primary">
+
+<div class="panel-body"><h2>Full Details</h2></div>
+<table class="table">
+  <tr>
+   <th width="10%">First Names</th>
+   <th width="10%">Last Name</th>
+   <th width="10%">Contact</th>
+   <th width="10%">Gender</th>
+   <th width="10%">Position</th>
+   <th width="10%">Email</th>
+   <th width="10%">City</th>
+   <th width="10%">Area</th>
+  </tr>
+  
+  <tr>
+   <td width="10%"><script>document.write(data[0])</script></td>
+   <td width="10%"><script>document.write(data[1])</script></td>
+   <td width="10%"><script>document.write(data[2])</script></td>
+   <td width="10%"><script>document.write(data[3])</script></td>
+   <td width="10%"><script>document.write(data[4])</script></td>
+   <td width="10%"><script>document.write(data[5])</script></td>
+   <td width="10%"><script>document.write(data[6])</script></td>
+   <td width="10%"><script>document.write(data[7])</script></td>
+  </tr>
+  
+  
+</table>
+
+<script>
+w3.includeHTML();
+</script>
+
+</div>
+	
+<footer class="navbar-default navbar-fixed-bottom">
+  <div class="container-fluid">
+    <span><div align="bottom" class="panel-footer"  id="footer" w3-include-html="footer.html"></span>
+  </div>
+</footer>
+</body>
+</html>
+
+

@@ -1,0 +1,127 @@
+﻿@model  MVCLogin.Models.UserModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+   
+    <title>Mind IT System</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron" id="header"
+             style="background-image: url('../../Images/mindit.png'); background-position: right; background-repeat: no-repeat; color: white; text-shadow: black 0.3em 0.3em 0.3em;">
+            <header>
+                
+                <h1 background-color="black">Mind IT Systems</h1>
+            </header>
+
+        </div>
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="Login.aspx">Home</a></li>
+
+                    </ul>
+
+
+                </div>
+            </div>
+        </nav>
+
+        <div>
+            <article class="well well-sm">
+                <h1>Dashboard</h1>
+            </article>
+        </div>
+        <p id="msg"></p>
+
+    @using (Html.BeginForm("Save", "Login", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
+        <div class="panel panel-primary">
+            <div class="panel-body">
+                <h2>Login</h2>
+            </div>
+
+            <table class="table table-striped ">
+                <tr>
+
+                    <td>
+                        @Html.LabelFor(model => model.userId)
+                           
+                        
+                    </td>
+                    <td>@Html.EditorFor(model => model.userId)
+                    @Html.ValidationMessageFor(model => model.userId)</td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(model => model.password)
+                    
+                       
+                    </td>
+                    <td>
+                        @Html.PasswordFor(model => model.password)
+                        @Html.ValidationMessageFor(model => model.password)
+                </td>
+                </tr>
+            </table>
+        </div>
+                <input type="submit" value="Login" class="btn btn-success btn pull-right" />
+            
+    }
+
+    </div>
+
+
+
+
+    <div id="footer" class="footer navbar-fixed-bottom">
+        <footer>
+            <marquee scrollamount="4" direction="left" behavior="scroll">
+                <label>
+                    © Copyright 2016 - Mind IT Systems | All rights reserved
+                </label>
+            </marquee>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        debugger;
+        if ('@TempData["message"]' != null || '@TempData["message"]' != "") {
+            var displayMessage = '@TempData["message"]';
+            document.getElementById("msg").textContent = displayMessage;
+        }
+    </script>
+</body>
+</html>

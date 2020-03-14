@@ -1,0 +1,135 @@
+D:\Today\Asp.net\Demo1\bin\ApplicationInsights.config
+D:\Today\Asp.net\Demo1\bin\roslyn\csc.exe
+D:\Today\Asp.net\Demo1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Today\Asp.net\Demo1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Today\Asp.net\Demo1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Today\Asp.net\Demo1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Today\Asp.net\Demo1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Today\Asp.net\Demo1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Today\Asp.net\Demo1\bin\roslyn\System.Collections.Immutable.dll
+D:\Today\Asp.net\Demo1\bin\roslyn\System.Reflection.Metadata.dll
+D:\Today\Asp.net\Demo1\bin\roslyn\vbc.exe
+D:\Today\Asp.net\Demo1\bin\roslyn\VBCSCompiler.exe
+D:\Today\Asp.net\Demo1\bin\roslyn\VBCSCompiler.exe.config
+D:\Today\Asp.net\Demo1\bin\Demo1.dll.config
+D:\Today\Asp.net\Demo1\bin\Demo1.dll
+D:\Today\Asp.net\Demo1\bin\Demo1.pdb
+D:\Today\Asp.net\Demo1\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Today\Asp.net\Demo1\bin\Microsoft.AI.DependencyCollector.dll
+D:\Today\Asp.net\Demo1\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Today\Asp.net\Demo1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Today\Asp.net\Demo1\bin\Microsoft.AI.Web.dll
+D:\Today\Asp.net\Demo1\bin\Microsoft.AI.WindowsServer.dll
+D:\Today\Asp.net\Demo1\bin\Microsoft.ApplicationInsights.dll
+D:\Today\Asp.net\Demo1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Today\Asp.net\Demo1\bin\MySql.Data.dll
+D:\Today\Asp.net\Demo1\bin\Microsoft.AI.DependencyCollector.xml
+D:\Today\Asp.net\Demo1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Today\Asp.net\Demo1\bin\Microsoft.AI.Web.xml
+D:\Today\Asp.net\Demo1\bin\Microsoft.AI.WindowsServer.xml
+D:\Today\Asp.net\Demo1\bin\Microsoft.ApplicationInsights.xml
+D:\Today\Asp.net\Demo1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Today\Asp.net\Demo1\obj\Debug\Demo1.dll
+D:\Today\Asp.net\Demo1\obj\Debug\Demo1.pdb
+D:\Today\Asp.net\Demo1\obj\Debug\Demo1.csprojResolveAssemblyReference.cache
+D:\Today\asp.net new\Asp.net\Demo1\bin\ApplicationInsights.config
+D:\Today\asp.net new\Asp.net\Demo1\bin\roslyn\csc.exe
+D:\Today\asp.net new\Asp.net\Demo1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Today\asp.net new\Asp.net\Demo1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Today\asp.net new\Asp.net\Demo1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Today\asp.net new\Asp.net\Demo1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Today\asp.net new\Asp.net\Demo1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Today\asp.net new\Asp.net\Demo1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Today\asp.net new\Asp.net\Demo1\bin\roslyn\System.Collections.Immutable.dll
+D:\Today\asp.net new\Asp.net\Demo1\bin\roslyn\System.Reflection.Metadata.dll
+D:\Today\asp.net new\Asp.net\Demo1\bin\roslyn\vbc.exe
+D:\Today\asp.net new\Asp.net\Demo1\bin\roslyn\VBCSCompiler.exe
+D:\Today\asp.net new\Asp.net\Demo1\bin\roslyn\VBCSCompiler.exe.config
+D:\Today\asp.net new\Asp.net\Demo1\bin\Demo1.dll.config
+D:\Today\asp.net new\Asp.net\Demo1\bin\Demo1.dll
+D:\Today\asp.net new\Asp.net\Demo1\bin\Demo1.pdb
+D:\Today\asp.net new\Asp.net\Demo1\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Today\asp.net new\Asp.net\Demo1\bin\Microsoft.AI.DependencyCollector.dll
+D:\Today\asp.net new\Asp.net\Demo1\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Today\asp.net new\Asp.net\Demo1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Today\asp.net new\Asp.net\Demo1\bin\Microsoft.AI.Web.dll
+D:\Today\asp.net new\Asp.net\Demo1\bin\Microsoft.AI.WindowsServer.dll
+D:\Today\asp.net new\Asp.net\Demo1\bin\Microsoft.ApplicationInsights.dll
+D:\Today\asp.net new\Asp.net\Demo1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Today\asp.net new\Asp.net\Demo1\bin\MySql.Data.dll
+D:\Today\asp.net new\Asp.net\Demo1\bin\Microsoft.AI.DependencyCollector.xml
+D:\Today\asp.net new\Asp.net\Demo1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Today\asp.net new\Asp.net\Demo1\bin\Microsoft.AI.Web.xml
+D:\Today\asp.net new\Asp.net\Demo1\bin\Microsoft.AI.WindowsServer.xml
+D:\Today\asp.net new\Asp.net\Demo1\bin\Microsoft.ApplicationInsights.xml
+D:\Today\asp.net new\Asp.net\Demo1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Today\asp.net new\Asp.net\Demo1\obj\Debug\Demo1.dll
+D:\Today\asp.net new\Asp.net\Demo1\obj\Debug\Demo1.pdb
+D:\Today\asp.net new\Asp.net\Demo1\obj\Debug\Demo1.csprojResolveAssemblyReference.cache
+E:\JOB\offc\complete\Asp.net\Demo1\bin\ApplicationInsights.config
+E:\JOB\offc\complete\Asp.net\Demo1\bin\roslyn\csc.exe
+E:\JOB\offc\complete\Asp.net\Demo1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\JOB\offc\complete\Asp.net\Demo1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\JOB\offc\complete\Asp.net\Demo1\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\JOB\offc\complete\Asp.net\Demo1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\JOB\offc\complete\Asp.net\Demo1\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\JOB\offc\complete\Asp.net\Demo1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\JOB\offc\complete\Asp.net\Demo1\bin\roslyn\System.Collections.Immutable.dll
+E:\JOB\offc\complete\Asp.net\Demo1\bin\roslyn\System.Reflection.Metadata.dll
+E:\JOB\offc\complete\Asp.net\Demo1\bin\roslyn\vbc.exe
+E:\JOB\offc\complete\Asp.net\Demo1\bin\roslyn\VBCSCompiler.exe
+E:\JOB\offc\complete\Asp.net\Demo1\bin\roslyn\VBCSCompiler.exe.config
+E:\JOB\offc\complete\Asp.net\Demo1\bin\Demo1.dll.config
+E:\JOB\offc\complete\Asp.net\Demo1\bin\Demo1.dll
+E:\JOB\offc\complete\Asp.net\Demo1\bin\Demo1.pdb
+E:\JOB\offc\complete\Asp.net\Demo1\bin\Microsoft.AI.Agent.Intercept.dll
+E:\JOB\offc\complete\Asp.net\Demo1\bin\Microsoft.AI.DependencyCollector.dll
+E:\JOB\offc\complete\Asp.net\Demo1\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\JOB\offc\complete\Asp.net\Demo1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\JOB\offc\complete\Asp.net\Demo1\bin\Microsoft.AI.Web.dll
+E:\JOB\offc\complete\Asp.net\Demo1\bin\Microsoft.AI.WindowsServer.dll
+E:\JOB\offc\complete\Asp.net\Demo1\bin\Microsoft.ApplicationInsights.dll
+E:\JOB\offc\complete\Asp.net\Demo1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\JOB\offc\complete\Asp.net\Demo1\bin\Microsoft.AI.DependencyCollector.xml
+E:\JOB\offc\complete\Asp.net\Demo1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\JOB\offc\complete\Asp.net\Demo1\bin\Microsoft.AI.Web.xml
+E:\JOB\offc\complete\Asp.net\Demo1\bin\Microsoft.AI.WindowsServer.xml
+E:\JOB\offc\complete\Asp.net\Demo1\bin\Microsoft.ApplicationInsights.xml
+E:\JOB\offc\complete\Asp.net\Demo1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\JOB\offc\complete\Asp.net\Demo1\obj\Debug\Demo1.csprojResolveAssemblyReference.cache
+E:\JOB\offc\complete\Asp.net\Demo1\obj\Debug\Demo1.dll
+E:\JOB\offc\complete\Asp.net\Demo1\obj\Debug\Demo1.pdb
+D:\Today\complete\Asp.net\Demo1\bin\ApplicationInsights.config
+D:\Today\complete\Asp.net\Demo1\bin\roslyn\csc.exe
+D:\Today\complete\Asp.net\Demo1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Today\complete\Asp.net\Demo1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Today\complete\Asp.net\Demo1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Today\complete\Asp.net\Demo1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Today\complete\Asp.net\Demo1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Today\complete\Asp.net\Demo1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Today\complete\Asp.net\Demo1\bin\roslyn\System.Collections.Immutable.dll
+D:\Today\complete\Asp.net\Demo1\bin\roslyn\System.Reflection.Metadata.dll
+D:\Today\complete\Asp.net\Demo1\bin\roslyn\vbc.exe
+D:\Today\complete\Asp.net\Demo1\bin\roslyn\VBCSCompiler.exe
+D:\Today\complete\Asp.net\Demo1\bin\roslyn\VBCSCompiler.exe.config
+D:\Today\complete\Asp.net\Demo1\bin\Demo1.dll.config
+D:\Today\complete\Asp.net\Demo1\bin\Demo1.dll
+D:\Today\complete\Asp.net\Demo1\bin\Demo1.pdb
+D:\Today\complete\Asp.net\Demo1\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Today\complete\Asp.net\Demo1\bin\Microsoft.AI.DependencyCollector.dll
+D:\Today\complete\Asp.net\Demo1\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Today\complete\Asp.net\Demo1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Today\complete\Asp.net\Demo1\bin\Microsoft.AI.Web.dll
+D:\Today\complete\Asp.net\Demo1\bin\Microsoft.AI.WindowsServer.dll
+D:\Today\complete\Asp.net\Demo1\bin\Microsoft.ApplicationInsights.dll
+D:\Today\complete\Asp.net\Demo1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Today\complete\Asp.net\Demo1\bin\MySql.Data.dll
+D:\Today\complete\Asp.net\Demo1\bin\Microsoft.AI.DependencyCollector.xml
+D:\Today\complete\Asp.net\Demo1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Today\complete\Asp.net\Demo1\bin\Microsoft.AI.Web.xml
+D:\Today\complete\Asp.net\Demo1\bin\Microsoft.AI.WindowsServer.xml
+D:\Today\complete\Asp.net\Demo1\bin\Microsoft.ApplicationInsights.xml
+D:\Today\complete\Asp.net\Demo1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Today\complete\Asp.net\Demo1\obj\Debug\Demo1.csprojResolveAssemblyReference.cache
+D:\Today\complete\Asp.net\Demo1\obj\Debug\Demo1.dll
+D:\Today\complete\Asp.net\Demo1\obj\Debug\Demo1.pdb

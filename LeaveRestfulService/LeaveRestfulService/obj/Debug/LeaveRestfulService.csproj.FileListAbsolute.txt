@@ -1,0 +1,140 @@
+F:\jai\20150508\testing\LeaveRestfulService\bin\LeaveRestfulService.dll.config
+F:\jai\20150508\testing\LeaveRestfulService\bin\LeaveRestfulService.dll
+F:\jai\20150508\testing\LeaveRestfulService\bin\LeaveRestfulService.pdb
+F:\jai\20150508\testing\LeaveRestfulService\bin\MySql.Data.DLL
+F:\jai\20150508\testing\LeaveRestfulService\obj\Debug\LeaveRestfulService.dll
+F:\jai\20150508\testing\LeaveRestfulService\obj\Debug\LeaveRestfulService.pdb
+F:\jai\20150508\testing\LeaveRestfulService\obj\Debug\LeaveRestfulService.csprojResolveAssemblyReference.cache
+E:\Jai\jai\20150508\testing\LeaveRestfulService\obj\Debug\LeaveRestfulService.dll
+E:\Jai\jai\20150508\testing\LeaveRestfulService\obj\Debug\LeaveRestfulService.pdb
+E:\Jai\jai\20150508\testing\LeaveRestfulService\bin\LeaveRestfulService.dll.config
+E:\Jai\jai\20150508\testing\LeaveRestfulService\bin\LeaveRestfulService.dll
+E:\Jai\jai\20150508\testing\LeaveRestfulService\bin\LeaveRestfulService.pdb
+E:\Jai\jai\20150508\testing\LeaveRestfulService\bin\MySql.Data.DLL
+E:\Jai\jai\20150508\testing\LeaveRestfulService\obj\Debug\LeaveRestfulService.csprojResolveAssemblyReference.cache
+E:\Jai\jai\20150508\testing\LeaveRestfulService\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Jai\jai\20150508\testing\LeaveRestfulService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\Jai\jai\20150508\testing\LeaveRestfulService\bin\Newtonsoft.Json.dll
+E:\Jai\jai\20150508\testing\LeaveRestfulService\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\Jai\jai\20150508\testing\LeaveRestfulService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+F:\Jai\jai\20150508\testing\LeaveRestfulService\bin\LeaveRestfulService.dll.config
+F:\Jai\jai\20150508\testing\LeaveRestfulService\bin\LeaveRestfulService.dll
+F:\Jai\jai\20150508\testing\LeaveRestfulService\bin\LeaveRestfulService.pdb
+F:\Jai\jai\20150508\testing\LeaveRestfulService\bin\MySql.Data.DLL
+F:\Jai\jai\20150508\testing\LeaveRestfulService\bin\Newtonsoft.Json.dll
+F:\Jai\jai\20150508\testing\LeaveRestfulService\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+F:\Jai\jai\20150508\testing\LeaveRestfulService\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+F:\Jai\jai\20150508\testing\LeaveRestfulService\obj\Debug\LeaveRestfulService.csprojResolveAssemblyReference.cache
+F:\Jai\jai\20150508\testing\LeaveRestfulService\obj\Debug\LeaveRestfulService.dll
+F:\Jai\jai\20150508\testing\LeaveRestfulService\obj\Debug\LeaveRestfulService.pdb
+E:\SIR Files\LeaveRestfulService\bin\LeaveRestfulService.dll.config
+E:\SIR Files\LeaveRestfulService\bin\LeaveRestfulService.dll
+E:\SIR Files\LeaveRestfulService\bin\LeaveRestfulService.pdb
+E:\SIR Files\LeaveRestfulService\bin\MySql.Data.dll
+E:\SIR Files\LeaveRestfulService\obj\Debug\LeaveRestfulService.csprojResolveAssemblyReference.cache
+E:\SIR Files\LeaveRestfulService\obj\Debug\LeaveRestfulService.dll
+E:\SIR Files\LeaveRestfulService\obj\Debug\LeaveRestfulService.pdb
+E:\SIR Files\Leavesuper\LeaveRestfulService\bin\LeaveRestfulService.dll.config
+E:\SIR Files\Leavesuper\LeaveRestfulService\bin\LeaveRestfulService.dll
+E:\SIR Files\Leavesuper\LeaveRestfulService\bin\LeaveRestfulService.pdb
+E:\SIR Files\Leavesuper\LeaveRestfulService\bin\MySql.Data.dll
+E:\SIR Files\Leavesuper\LeaveRestfulService\obj\Debug\LeaveRestfulService.csprojResolveAssemblyReference.cache
+E:\SIR Files\Leavesuper\LeaveRestfulService\obj\Debug\LeaveRestfulService.dll
+E:\SIR Files\Leavesuper\LeaveRestfulService\obj\Debug\LeaveRestfulService.pdb
+D:\Mind IT Projects\Website App\Code\LeaveRestfulService\bin\LeaveRestfulService.dll.config
+D:\Mind IT Projects\Website App\Code\LeaveRestfulService\bin\LeaveRestfulService.dll
+D:\Mind IT Projects\Website App\Code\LeaveRestfulService\bin\LeaveRestfulService.pdb
+D:\Mind IT Projects\Website App\Code\LeaveRestfulService\bin\MySql.Data.dll
+D:\Mind IT Projects\Website App\Code\LeaveRestfulService\obj\Debug\LeaveRestfulService.csprojResolveAssemblyReference.cache
+D:\Mind IT Projects\Website App\Code\LeaveRestfulService\obj\Debug\LeaveRestfulService.dll
+D:\Mind IT Projects\Website App\Code\LeaveRestfulService\obj\Debug\LeaveRestfulService.pdb
+C:\Users\mindituser\Desktop\Attandance Mgmt System\Latest Attendance Mgmt Code\LeaveRestfulService\bin\LeaveRestfulService.dll.config
+C:\Users\mindituser\Desktop\Attandance Mgmt System\Latest Attendance Mgmt Code\LeaveRestfulService\bin\LeaveRestfulService.dll
+C:\Users\mindituser\Desktop\Attandance Mgmt System\Latest Attendance Mgmt Code\LeaveRestfulService\bin\LeaveRestfulService.pdb
+C:\Users\mindituser\Desktop\Attandance Mgmt System\Latest Attendance Mgmt Code\LeaveRestfulService\bin\MySql.Data.dll
+C:\Users\mindituser\Desktop\Attandance Mgmt System\Latest Attendance Mgmt Code\LeaveRestfulService\obj\Debug\LeaveRestfulService.csprojResolveAssemblyReference.cache
+C:\Users\mindituser\Desktop\Attandance Mgmt System\Latest Attendance Mgmt Code\LeaveRestfulService\obj\Debug\LeaveRestfulService.dll
+C:\Users\mindituser\Desktop\Attandance Mgmt System\Latest Attendance Mgmt Code\LeaveRestfulService\obj\Debug\LeaveRestfulService.pdb
+C:\Users\mindituser\Desktop\Attandance Mgmt System\Latest Attendance Mgmt Code\LeaveRestfulService\bin\mysql.web.dll
+D:\Mind IT Projects\Attandance Mgmt System\Latest Attendance Mgmt Code\LeaveRestfulService\bin\LeaveRestfulService.dll.config
+D:\Mind IT Projects\Attandance Mgmt System\Latest Attendance Mgmt Code\LeaveRestfulService\bin\LeaveRestfulService.dll
+D:\Mind IT Projects\Attandance Mgmt System\Latest Attendance Mgmt Code\LeaveRestfulService\bin\LeaveRestfulService.pdb
+D:\Mind IT Projects\Attandance Mgmt System\Latest Attendance Mgmt Code\LeaveRestfulService\bin\MySql.Data.DLL
+D:\Mind IT Projects\Attandance Mgmt System\Latest Attendance Mgmt Code\LeaveRestfulService\bin\mysql.web.dll
+D:\Mind IT Projects\Attandance Mgmt System\Latest Attendance Mgmt Code\LeaveRestfulService\obj\Debug\LeaveRestfulService.csprojResolveAssemblyReference.cache
+D:\Mind IT Projects\Attandance Mgmt System\Latest Attendance Mgmt Code\LeaveRestfulService\obj\Debug\LeaveRestfulService.dll
+D:\Mind IT Projects\Attandance Mgmt System\Latest Attendance Mgmt Code\LeaveRestfulService\obj\Debug\LeaveRestfulService.pdb
+D:\Mind IT Projects\AMS\Backups\LeaveRestfulService\bin\LeaveRestfulService.dll.config
+D:\Mind IT Projects\AMS\Backups\LeaveRestfulService\bin\LeaveRestfulService.dll
+D:\Mind IT Projects\AMS\Backups\LeaveRestfulService\bin\LeaveRestfulService.pdb
+D:\Mind IT Projects\AMS\Backups\LeaveRestfulService\bin\MySql.Data.DLL
+D:\Mind IT Projects\AMS\Backups\LeaveRestfulService\bin\mysql.web.dll
+D:\Mind IT Projects\AMS\Backups\LeaveRestfulService\obj\Debug\LeaveRestfulService.csprojResolveAssemblyReference.cache
+D:\Mind IT Projects\AMS\Backups\LeaveRestfulService\obj\Debug\LeaveRestfulService.dll
+D:\Mind IT Projects\AMS\Backups\LeaveRestfulService\obj\Debug\LeaveRestfulService.pdb
+D:\AMS_New\LeaveRestfulService\bin\LeaveRestfulService.dll.config
+D:\AMS_New\LeaveRestfulService\bin\LeaveRestfulService.dll
+D:\AMS_New\LeaveRestfulService\bin\LeaveRestfulService.pdb
+D:\AMS_New\LeaveRestfulService\bin\MySql.Data.dll
+D:\AMS_New\LeaveRestfulService\bin\mysql.web.dll
+D:\AMS_New\LeaveRestfulService\bin\MySql.Data.xml
+D:\AMS_New\LeaveRestfulService\bin\mysql.web.xml
+D:\AMS_New\LeaveRestfulService\obj\Debug\LeaveRestfulService.csprojResolveAssemblyReference.cache
+D:\AMS_New\LeaveRestfulService\obj\Debug\LeaveRestfulService.dll
+D:\AMS_New\LeaveRestfulService\obj\Debug\LeaveRestfulService.pdb
+D:\Mind IT Projects\AMS_new\LeaveRestfulService\bin\LeaveRestfulService.dll.config
+D:\Mind IT Projects\AMS_new\LeaveRestfulService\bin\LeaveRestfulService.dll
+D:\Mind IT Projects\AMS_new\LeaveRestfulService\bin\LeaveRestfulService.pdb
+D:\Mind IT Projects\AMS_new\LeaveRestfulService\bin\MySql.Data.DLL
+D:\Mind IT Projects\AMS_new\LeaveRestfulService\bin\mysql.web.dll
+D:\Mind IT Projects\AMS_new\LeaveRestfulService\obj\Debug\LeaveRestfulService.dll
+D:\Mind IT Projects\AMS_new\LeaveRestfulService\obj\Debug\LeaveRestfulService.pdb
+D:\Mind IT Projects\AMS_new\LeaveRestfulService\obj\Debug\LeaveRestfulService.csprojResolveAssemblyReference.cache
+E:\Mind IT Projects\AMS_new\LeaveRestfulService\bin\LeaveRestfulService.dll.config
+E:\Mind IT Projects\AMS_new\LeaveRestfulService\bin\LeaveRestfulService.dll
+E:\Mind IT Projects\AMS_new\LeaveRestfulService\bin\LeaveRestfulService.pdb
+E:\Mind IT Projects\AMS_new\LeaveRestfulService\bin\MySql.Data.dll
+E:\Mind IT Projects\AMS_new\LeaveRestfulService\bin\mysql.web.dll
+E:\Mind IT Projects\AMS_new\LeaveRestfulService\obj\Debug\LeaveRestfulService.csprojResolveAssemblyReference.cache
+E:\Mind IT Projects\AMS_new\LeaveRestfulService\obj\Debug\LeaveRestfulService.dll
+E:\Mind IT Projects\AMS_new\LeaveRestfulService\obj\Debug\LeaveRestfulService.pdb
+E:\Mind IT Projects\AMS_new\AMS_new(v_1.8test release)\AMS_new\LeaveRestfulService\bin\LeaveRestfulService.dll.config
+E:\Mind IT Projects\AMS_new\AMS_new(v_1.8test release)\AMS_new\LeaveRestfulService\bin\LeaveRestfulService.dll
+E:\Mind IT Projects\AMS_new\AMS_new(v_1.8test release)\AMS_new\LeaveRestfulService\bin\LeaveRestfulService.pdb
+E:\Mind IT Projects\AMS_new\AMS_new(v_1.8test release)\AMS_new\LeaveRestfulService\bin\MySql.Data.dll
+E:\Mind IT Projects\AMS_new\AMS_new(v_1.8test release)\AMS_new\LeaveRestfulService\bin\mysql.web.dll
+E:\Mind IT Projects\AMS_new\AMS_new(v_1.8test release)\AMS_new\LeaveRestfulService\obj\Debug\LeaveRestfulService.csprojResolveAssemblyReference.cache
+E:\Mind IT Projects\AMS_new\AMS_new(v_1.8test release)\AMS_new\LeaveRestfulService\obj\Debug\LeaveRestfulService.dll
+E:\Mind IT Projects\AMS_new\AMS_new(v_1.8test release)\AMS_new\LeaveRestfulService\obj\Debug\LeaveRestfulService.pdb
+D:\MinditProjects\Mind_IT_Interne\AMS_new\LeaveRestfulService\bin\LeaveRestfulService.dll.config
+D:\MinditProjects\Mind_IT_Interne\AMS_new\LeaveRestfulService\bin\LeaveRestfulService.dll
+D:\MinditProjects\Mind_IT_Interne\AMS_new\LeaveRestfulService\bin\LeaveRestfulService.pdb
+D:\MinditProjects\Mind_IT_Interne\AMS_new\LeaveRestfulService\bin\MySql.Data.DLL
+D:\MinditProjects\Mind_IT_Interne\AMS_new\LeaveRestfulService\bin\mysql.web.dll
+D:\MinditProjects\Mind_IT_Interne\AMS_new\LeaveRestfulService\obj\Debug\LeaveRestfulService.csprojResolveAssemblyReference.cache
+D:\MinditProjects\Mind_IT_Interne\AMS_new\LeaveRestfulService\obj\Debug\LeaveRestfulService.dll
+D:\MinditProjects\Mind_IT_Interne\AMS_new\LeaveRestfulService\obj\Debug\LeaveRestfulService.pdb
+D:\Today\LeaveRestfulService\LeaveRestfulService\bin\LeaveRestfulService.dll.config
+D:\Today\LeaveRestfulService\LeaveRestfulService\bin\LeaveRestfulService.dll
+D:\Today\LeaveRestfulService\LeaveRestfulService\bin\LeaveRestfulService.pdb
+D:\Today\LeaveRestfulService\LeaveRestfulService\bin\MySql.Data.dll
+D:\Today\LeaveRestfulService\LeaveRestfulService\bin\mysql.web.dll
+D:\Today\LeaveRestfulService\LeaveRestfulService\bin\WebMatrix.WebData.dll
+D:\Today\LeaveRestfulService\LeaveRestfulService\bin\System.Web.WebPages.dll
+D:\Today\LeaveRestfulService\LeaveRestfulService\bin\WebMatrix.Data.dll
+D:\Today\LeaveRestfulService\LeaveRestfulService\bin\System.Web.WebPages.Razor.dll
+D:\Today\LeaveRestfulService\LeaveRestfulService\bin\System.Web.Helpers.dll
+D:\Today\LeaveRestfulService\LeaveRestfulService\bin\Microsoft.Web.Infrastructure.dll
+D:\Today\LeaveRestfulService\LeaveRestfulService\bin\System.Web.Razor.dll
+D:\Today\LeaveRestfulService\LeaveRestfulService\bin\System.Web.WebPages.Deployment.dll
+D:\Today\LeaveRestfulService\LeaveRestfulService\bin\WebMatrix.WebData.xml
+D:\Today\LeaveRestfulService\LeaveRestfulService\bin\System.Web.WebPages.xml
+D:\Today\LeaveRestfulService\LeaveRestfulService\bin\WebMatrix.Data.xml
+D:\Today\LeaveRestfulService\LeaveRestfulService\bin\System.Web.WebPages.Razor.xml
+D:\Today\LeaveRestfulService\LeaveRestfulService\bin\System.Web.Helpers.xml
+D:\Today\LeaveRestfulService\LeaveRestfulService\bin\Microsoft.Web.Infrastructure.xml
+D:\Today\LeaveRestfulService\LeaveRestfulService\bin\System.Web.Razor.xml
+D:\Today\LeaveRestfulService\LeaveRestfulService\bin\System.Web.WebPages.Deployment.xml
+D:\Today\LeaveRestfulService\LeaveRestfulService\obj\Debug\LeaveRestfulService.csprojResolveAssemblyReference.cache
+D:\Today\LeaveRestfulService\LeaveRestfulService\obj\Debug\LeaveRestfulService.dll
+D:\Today\LeaveRestfulService\LeaveRestfulService\obj\Debug\LeaveRestfulService.pdb

@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Mind IT Systems</title>
+<link rel="STYLESHEET" href="css/bootstrap.min.css">
+<link rel="STYLESHEET" href="sweetalert.css">
+<script src="jquery-3.2.1.min.js"></script>
+
+<script src="js/bootstrap.js"></script>
+<script src="sweetalert.min.js"></script>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+
+<body>
+
+<div class="container-fluid">	
+
+<div  class="jumbotron"id="header" w3-include-html="header.html" 
+style="background-image: url(mindit.png);
+background-position: right;
+
+background-repeat: no-repeat;
+color: white;
+text-shadow: black 0.3em 0.3em 0.3em;">);></div>
+
+  
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+          <li class="active"><a href="mine.html">Home</a></li>
+          <li ><a  href="mine.html">Services</a></li>
+	      <li ><a  href="mine.html">AboutUs</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<article class="well well-sm">
+  <h1>Dashboard</h1>
+   </article>
+
+<div class="panel panel-primary">
+
+<div class="panel-body"><h2>Employee</h2></div>
+<table class="table table-striped table-hover">
+  <tr>
+    <td><h4>EmpId</h4></td>
+    <td><h4>FirstName</h4></td>
+	<td><h4>LastName</h4></td>
+	<td><h4>Details</h4></td>
+  </tr>
+  <tr >
+	<td>1</td>
+    <td>Peter</td>
+    <td>Griffin</td>
+    <td><a href="empDetails.htm?eId=1">Details</a></td>	
+  </tr>
+  <tr>
+	<td>2</td>
+    <td>Lois</td>
+    <td>Mane</td>
+    <td><a href="empDetails.htm?eId=2">Details</a></td>
+  </tr>
+  <tr>
+	<td>3</td>
+    <td>Joe</td>
+    <td>Swanson</td>
+    <td><a href="empDetails.htm?eId=3">Details</a></td>
+  </tr>
+  <tr>
+	<td>4</td>
+    <td>Cleveland</td>
+    <td>Brown</td>
+    <td><a href="empDetails.htm?eId=4">Details</a></td>
+</tr>
+
+</table>
+
+<script>
+w3.includeHTML();
+</script>
+
+</div>
+<div  align="right" style="20px 0px 50px 0px;" >
+<a href="New_Member.htm" class="btn btn-info" role="button">Click here to add New Employee</a>
+</div>
+
+
+<footer class="navbar-default navbar-fixed-bottom">
+  <div class="container-fluid">
+    <span><div align="bottom" class="panel-footer"  id="footer" w3-include-html="footer.html"></span>
+  </div>
+</footer>
+
+</body>
+</html>
