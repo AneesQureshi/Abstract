@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>Login Page</title>
+
+<link rel="STYLESHEET" href="css/bootstrap.min.css">
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+
+</head>
+<body>
+<form name="loginForm" method="post">
+<table width="20%" bgcolor="0099CC" align="center">
+
+<tr>
+<td colspan=2><center><font size=4><b>HTML Login Page</b></font></center></td>
+</tr>
+
+<tr>
+<td>Email:</td>
+<td><input type="email" size=25 name="emailid" id="emailid" ></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="Password" size=25 name="pwd"></td>
+</tr>
+
+<tr>
+<td ><input type="Reset"></td>
+<td><input type="submit"  value="Login"></td>
+</tr>
+
+</table>
+
+<div class="parent" align="center">
+    <input type="text" />
+</div>
+
+<div class="log" align="center"></div>
+
+</form>
+<script type="text/javascript">
+  function ValidateEmail(email) {
+        var expr = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+        return expr.test(email);
+    };
+    $("#emailid").focusout(function () {
+	
+        if (!ValidateEmail($("#emailid").val())) {
+            log('invalid email address');
+        }
+       
+    });
+</script>
+
+
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+
+$('.parent')
+    .focusin(function(){log('div focusin');})
+    .focusout(function(){log('div focusout');})
+    .focus(function(){log('div focus');})
+    .blur(function(){log('div blur');});
+$('input')
+    .focusin(function(){log('input focusin');})
+    .focusout(function(){log('input focusout');})
+    .focus(function(){log('input focus');})
+    .blur(function(){log('input blur');});
+
+function log(str){
+  $('.log').append($('<div/>').text(str));
+}
+
+</script>
+ <p>If you click on the "Hide" button, I will disappear.</p>
+
+<button class="btn btn-info" button id="hide">Hide</button>
+<button class="btn btn-info" id="show">Show</button>
+
+
+</body>
+</html>
