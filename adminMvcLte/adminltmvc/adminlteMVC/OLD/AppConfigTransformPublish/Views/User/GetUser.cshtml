@@ -1,0 +1,302 @@
+﻿
+@{
+    ViewBag.Title = "GetUser";
+    Layout = "~/Views/Shared/_HomePageLayout.cshtml";
+}
+@model IEnumerable<AdminltMVC.Models.mUser>
+<section class="content">
+    <form >
+        <!-- jQuery 2.2.0 -->
+        <script type="text/javascript" src="@Url.Content("~/Content/AdminLTE/js/plugins/jQuery/jQuery-2.1.4.min.js")"></script>
+        <!-- Bootstrap 3.3.6 -->
+        <script type="text/javascript" src="@Url.Content("~/Content/bootstrap/js/bootstrap.min.js")"></script>
+        <!-- FastClick -->
+        <script type="text/javascript" src="@Url.Content("~/Content/AdminLTE/js/plugins/fastclick/fastclick.js")"></script>
+        <!-- AdminLTE App -->
+        <script type="text/javascript" src="@Url.Content("~/Content/AdminLTE/js/AdminLTE/app.min.js")"></script>
+        <!-- AdminLTE for demo purposes -->
+        <script type="text/javascript" src="@Url.Content("~/Content/AdminLTE/js/AdminLTE/demo.js")"></script>
+
+                <div class="box box-danger">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Search User</h3>
+                    </div>
+                    <div class="box-body">
+                        <div class="row">
+                            <div class="col-xs-7">
+                                <input ID="txtEmail" class="form-control" placeholder="Enter user email to search" />
+                            </div>
+                            <div class="col-xs-3">
+                                <Button ID="searchbutton" type="submit" class="btn btn-danger pull-right btn-block btn-sm" >Search</Button>
+
+                            </div>
+                            <div class="col-xs-2">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.box-body -->
+                </div>
+                <!-- /.box -->
+
+                <div class="box box-danger">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">User</h3>
+                    </div>
+                    <div class="box-body">
+                        <div class="row">
+                            <div class="col-xs-12 table-responsive">
+                                <div id="gridContent">
+                                    @{
+                                        var grid = new WebGrid(Model, ajaxUpdateContainerId: "gridContent", selectionFieldName: "selectedRow", rowsPerPage: 5);
+
+                                        IEnumerable<WebGridColumn> cols =
+                                            new List<WebGridColumn> {
+                                new WebGridColumn{
+                                    Format = @<text>
+                                        <a href='#' class="display edit-btn">Edit</a>
+                                        <a href="#" class="edit save-btn">Save</a>
+                                        <a href="#" class="edit cancel-btn">Close</a>
+                                        <a href="#" class="display delete-btn">Delete</a>
+                                    </text>
+                                },
+                                new WebGridColumn{
+                                    Header="ID",
+                                    Format = @<text>
+                                        <span class="display"><label id="lblID">@item.ID</label></span>
+                                        <input type="text" id="inID" value="@item.ID" class="edit" readonly="true" />
+                                    </text>
+                                },
+                                new WebGridColumn{
+                                    Header="Email",
+                                    Format = @<text>
+                                        <span class="display"><label id="lblName">@item.Email</label></span>
+                                        <input type="text" id="inName" value="@item.Email" class="edit" />
+                                    </text>
+                                },
+                                new WebGridColumn{
+                                    Header="Comment",
+                                    Format = @<text>
+                                        <span class="display"><label id="lblEmail">@item.Comment</label></span>
+                                        <input type="text" id="inEmail" value="@item.Comment" class="edit" />
+                                    </text>
+                                },
+                                new WebGridColumn{
+                                    Header="IsApproved",
+                                    Format = @<text>
+                                        <span class="display"><label id="lblEmail">@item.IsApproved</label></span>
+                                        <input type="text" id="inEmail" value="@item.IsApproved" class="edit" />
+                                    </text>
+                                },
+                                new WebGridColumn{
+                                    Header="PassFailAttempt",
+                                    Format = @<text>
+                                        <span class="display"><label id="lblEmail">@item.PassFailAttempt</label></span>
+                                        <input type="text" id="inEmail" value="@item.PassFailAttempt" class="edit" />
+                                    </text>
+                                },
+                                new WebGridColumn{
+                                    Header="AnswerFailAttempt",
+                                    Format = @<text>
+                                        <span class="display"><label id="lblEmail">@item.AnswerFailAttempt</label></span>
+                                        <input type="text" id="inEmail" value="@item.AnswerFailAttempt" class="edit" />
+                                    </text>
+                                }
+                            };
+                                    }
+                                    <br />
+                                    @grid.GetHtml(columns: cols, rowStyle: "oddRowStyle", alternatingRowStyle: "evenRowStyle")
+                                    </div>
+                                </div>
+
+                        </div>
+                    </div>
+                </div>
+    </form>
+</section>
+<script type="text/javascript">
+    $(function () {
+
+        var tfootAdd = "<tr class='tfootrow'>" +
+                            "<td> " +
+                                "<a href='#' class='display ins-btn' >Insert</a>" +
+                                "<a href='#' class='edit inssave-btn'>Save</a>" +
+                                "<a href='#' class='edit cancel-btn'>Close</a>" +
+                            "</td>" +
+                            "<td>" +
+                                "<span class='display'/>" +
+                                "<input type='text' id='ID' value='' class = 'edit'/> " +
+                                "</td>" +
+                            "<td>" +
+                                "<span class='display'/>" +
+                                "<input type='text' id='Email' value='' class = 'edit'/>" +
+                            "</td>" +
+                            "<td>" +
+                                "<span class='display'/>" +
+                                "<input type='text' id='Comment' value='' class = 'edit'/>" +
+                            "</td>" +
+                            "<td>" +
+                                "<span class='display'/>" +
+                                "<input type='text' id='IsApproved' value='' class = 'edit'/> " +
+                                "</td>" +
+                            "<td>" +
+                                "<span class='display'/>" +
+                                "<input type='text' id='PassFailAttempt' value='' class = 'edit'/>" +
+                            "</td>" +
+                            "<td>" +
+                                "<span class='display'/>" +
+                                "<input type='text' id='AnswerFailAttempt' value='' class = 'edit'/>" +
+                            "</td>" +
+                        "</tr>"
+        $("table tfoot tr:first").before(tfootAdd);
+
+        $('.edit').hide();  // default is display
+
+        $('.ins-btn, .edit-btn, .cancel-btn').on("click", function () {
+            var tr = $(this).parents('tr:first');
+            tr.find('.edit, .display').toggle();
+        });
+
+        $('.inssave-btn').on("click", function () {
+            var tr = $(this).parents('tr:first');
+            var name = tr.find("#inName").val();
+            var id = tr.find("#inID").val();
+            var email = tr.find("#inEmail").val();
+            var isSuccess = -1;
+
+            var Student =
+            {
+                "ID": id,
+                "Name": name,
+                "email": email
+            };
+
+            $.ajax({
+
+                url: '/Home/InsertData/',       // HomeController and InsertData method
+
+                data: JSON.stringify(Student),
+
+                type: 'POST',
+
+                contentType: 'application/json; charset=utf-8',
+
+                success: function (result) {
+                    isSuccess = result;
+
+                },
+                error: function(result){
+                    isSuccess = result;
+                }
+
+            }).done(function () {
+                if (isSuccess == "1") {           // Successfully saved
+                    tr.find('.edit, .display').toggle();
+                    alert("Successfully Saved");
+                    location.reload();      // refresh the page
+                }
+                else {                      // Data Error
+                    alert("Error. Please, check the data");
+                }
+            });
+        });
+
+        $('.save-btn').on("click", function () {
+
+            var tr = $(this).parents('tr:first');
+            var name = tr.find("#inName").val();
+            var id = tr.find("#inID").val();
+            var email = tr.find("#inEmail").val();
+            var isSuccess = -1;
+
+            tr.find("#lblName").text(name);
+            tr.find("#lblEmail").text(email);
+
+
+            var Student =
+            {
+                "ID": id,
+                "Name": name,
+                "email": email
+            };
+
+            $.ajax({
+
+                url: '/Home/SaveData/',
+
+                data: JSON.stringify(Student),
+
+                type: 'POST',
+
+                contentType: 'application/json; charset=utf-8',
+
+                success: function (result) {
+                    isSuccess = result;
+
+                },
+                error: function (result) {
+                    isSuccess = result;
+                }
+
+            }).done(function () {
+                if (isSuccess == "1") {           // Successfully saved
+                    tr.find('.edit, .display').toggle();
+                    alert("Successfully Saved");
+                }
+                else {                      // Data Error
+                    alert("Error. Please, check the data");
+                }
+            });
+
+        });
+
+
+        $('.delete-btn').on("click", function () {
+
+            var tr = $(this).parents('tr:first');
+            var name = tr.find("#inName").val();
+            var id = tr.find("#inID").val();
+            var email = tr.find("#inEmail").val();
+            var isSuccess = -1;
+
+            var Student =
+            {
+                "ID": id,
+                "Name": name,
+                "email": email
+            };
+
+            $.ajax({
+
+                url: '/Home/DeleteData/',
+
+                data: JSON.stringify(Student),
+
+                type: 'POST',
+
+                contentType: 'application/json; charset=utf-8',
+
+                success: function (result) {
+                    isSuccess = result;
+
+                },
+                error: function (result) {
+                    isSuccess = result;
+                }
+
+            }).done(function () {
+                if (isSuccess == "1") {           // Successfully Deleted
+                    alert("Successfully Deleted");
+                    location.reload();      // refresh the page
+                }
+                else {                      // Data Error
+                    alert("Error. Please, check the data");
+                }
+
+            });
+
+
+        });
+    });
+</script>
+
+

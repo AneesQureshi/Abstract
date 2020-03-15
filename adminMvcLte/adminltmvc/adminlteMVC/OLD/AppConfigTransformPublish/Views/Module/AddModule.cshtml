@@ -1,0 +1,85 @@
+﻿@model AdminltMVC.Models.ModuleBaseModel
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Views/Shared/_HomePageLayout.cshtml";
+}
+
+
+    <meta name="viewport" content="width=device-width" />
+    <title>AddModule</title>
+ <script src="~/Scripts/bootstrap.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="@Url.Content("~/jquery-1.7.2.min.js")" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+
+@using (Html.BeginForm("insertModule", "Module", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+        <!-- Content Header (Page header) -->
+    if (TempData["result"] != null)
+    {
+        <div class="alert alert-success alert-dismissible" style="height:50px;margin-top:20px">>
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>           
+            @TempData["result"]
+        </div>
+        @*<p id="tag" style="color:#212C32;margin-left:15px;">@TempData["result"]</p>*@
+    }
+
+    <section class="content-header">
+        <h1>Add Module</h1>
+    </section>
+        <!-- Main content -->
+        <section class="content">
+            <!-- SELECT2 EXAMPLE -->
+
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Details</h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                @Html.LabelFor(e => e.module.moduleName, "Module")
+                                <div class="input-group">
+                                    <div class="input-group-addon"> <i class="fa fa-user"></i> </div>
+                                    @Html.TextBoxFor(e => e.module.moduleName, new { style = "width: 200px;height:31px;border: 1px solid #c0c0c0;", id = "mod", @maxlength = "20" , required = "required", pattern = @"^([a-zA-Z .&'-]+)$" })
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                @Html.LabelFor(e => e.module.description, "Description")
+                                <div class="input-group">
+                                    <div class="input-group-addon"> <i class="fa fa-file-text"></i> </div>
+                                    @Html.TextBoxFor(e => e.module.description, new { style = "width: 200px;height:31px;border: 1px solid #c0c0c0;", id = "des", @maxlength = "50",required = "required", pattern = @"^([a-zA-Z .&'-]+)$" })
+                                </div>
+                                <!-- /.input group -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="box-footer">
+                                <input type="submit" value="Save" id="Save" class="btn btn-primary" style="margin-right:5px;width:50px;">
+                                <button type="reset" class="btn btn-default">Reset</button>
+                            </div>
+                        </div><div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+}
+<div class="box-body">
+
+
+    <div id="divPartial">
+        @{
+            Html.RenderPartial("~/Views/Module/ShowModuleList.cshtml", Model.moduleList);
+
+        }
+    </div>
+</div>
+

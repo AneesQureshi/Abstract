@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ExceptionPriorityStatus>
+
+	<Priority id="1">
+		<Log_exception>true</Log_exception>
+		<Show_exception>true</Show_exception>
+	</Priority>
+	
+	<Priority id="2">
+		<Log_exception>true</Log_exception>
+		<Show_exception>false</Show_exception>
+	</Priority>
+	
+	<Priority id="3">
+		<Log_exception>false</Log_exception>
+		<Show_exception>true</Show_exception>
+	</Priority>
+	
+	<Priority id="4">
+		<Log_exception>false</Log_exception>
+		<Show_exception>false</Show_exception>
+	</Priority>
+	
+</ExceptionPriorityStatus>

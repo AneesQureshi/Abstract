@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_HomePageLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PermissionError</title>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="@Url.Content("~/jquery-1.7.2.min.js")" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+</head>
+<body>
+    <div> 
+        <section class="content-header">            
+        </section>
+        <section class="content">
+            <!-- SELECT2 EXAMPLE -->
+
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title">@ViewBag.ErrorTittle</h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <div class="row">
+                        <div class="col-lg-6">@ViewBag.ErrorMessage</div>
+                    </div>
+                    </div>
+                </div>           
+        </section>        
+    </div>
+</body>
+</html>

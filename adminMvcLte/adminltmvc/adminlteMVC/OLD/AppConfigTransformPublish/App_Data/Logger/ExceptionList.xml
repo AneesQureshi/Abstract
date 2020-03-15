@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<ExceptionList>
+
+	<Exception id="nullreferenceexception">
+		<Exception_type>NullReferenceException</Exception_type>
+		<Exception_priority>1</Exception_priority>
+		<Exception_message>Something went wrong. Getting NullReferenceException</Exception_message>
+	</Exception>
+	
+	<Exception id="outofmemoryexception">
+		<Exception_type>OutofmemoryException</Exception_type>
+		<Exception_priority>2</Exception_priority>
+		<Exception_message>Something went wrong. Getting OutofmemoryException</Exception_message>
+	</Exception>
+	
+	<Exception id="stackoverflowexception">
+		<Exception_type>StackOverFlowException</Exception_type>
+		<Exception_priority>3</Exception_priority>
+		<Exception_message>Something went wrong. Getting StackOverFlowException</Exception_message>
+	</Exception>
+	
+	<Exception id="arithmeticexception">
+		<Exception_type>ArithmeticException</Exception_type>
+		<Exception_priority>4</Exception_priority>
+		<Exception_message>Something went wrong. Getting ArithmeticException</Exception_message>
+	</Exception>
+	
+	<Exception id="dividebyzeroexception">
+		<Exception_type>DivideByZeroException</Exception_type>
+		<Exception_priority>1</Exception_priority>
+		<Exception_message>Something went wrong. Getting DivideByZeroException</Exception_message>
+	</Exception>
+	
+</ExceptionList>
